@@ -1,0 +1,73 @@
+# =============== #
+# Archivos de Unity
+# =============== #
+
+# Carpetas generadas automáticamente por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Archivos de configuración de usuario
+UserSettings/
+
+# Archivos de compilación y metadata
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Archivos de Unity Cache
+MemoryCaptures/
+
+# Archivos de paquetes
+*.apk
+*.aab
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# Archivos de Rider
+.idea/
+*.sln.iml
+
+# Archivos de Visual Studio
+.vs/
+
+# Archivos de Asset Store
+AssetStoreTools*
+
+# Archivos de versiones de control de Unity
+*.asset
+*.meta
+
+# ==================== #
+# Archivos específicos de OS
+# ==================== #
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==================== #
+# Otros
+# ==================== #
+
+# Excluir archivos temporales de editores
+*.log
