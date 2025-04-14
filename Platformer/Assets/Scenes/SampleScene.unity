@@ -567,10 +567,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1462667629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d39111f166732f1489ef9259eb3fc245, type: 3}
+  m_Script: {fileID: 11500000, guid: 8190aa906df3a0749a2a3be9a63acd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  inputActions: {fileID: -944628639613478452, guid: 33bafcb4f9d1d10429f15d88e2972ebc, type: 3}
 --- !u!114 &1462667631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,10 +580,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1462667629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9303763e837bbb14f939b37980a8bdff, type: 3}
+  m_Script: {fileID: 11500000, guid: 275f74d3a2cf40e4dacd07b584b6a196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputActions: {fileID: -944628639613478452, guid: a99b96d276ba77a4a9338b448c656d0e, type: 3}
+  moveSpeed: 5
 --- !u!65 &1462667632
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -682,13 +682,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1462667629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f4d14ec5a9a1d4d83303c84e9e9706, type: 3}
+  m_Script: {fileID: 11500000, guid: 8190aa906df3a0749a2a3be9a63acd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputReader: {fileID: 1462667631}
-  minJumpForce: 5
-  maxJumpForce: 15
-  chargeSpeed: 20
+  inputActions: {fileID: -944628639613478452, guid: 33bafcb4f9d1d10429f15d88e2972ebc, type: 3}
 --- !u!54 &1462667637
 Rigidbody:
   m_ObjectHideFlags: 0
