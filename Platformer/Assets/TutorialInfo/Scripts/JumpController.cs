@@ -41,7 +41,7 @@ public class JumpController : MonoBehaviour
 
     private void Update()
     {
-        // Charge jump height if button held and jumps remaining
+        
         if (isCharging && jumpCount < maxJumpCount)
         {
             currentJumpForce += chargeSpeed * Time.deltaTime;
@@ -52,7 +52,7 @@ public class JumpController : MonoBehaviour
 
     private void StartCharging()
     {
-        // Only start charging if under jump limit
+       
         if (jumpCount < maxJumpCount)
         {
             isCharging = true;
@@ -62,10 +62,9 @@ public class JumpController : MonoBehaviour
 
     private void PerformJump()
     {
-        // Apply jump if we were charging and have jumps left
+        
         if (isCharging && jumpCount < maxJumpCount)
-        {
-            // Determine force cap based on jump count
+        {         
             float appliedForce = Mathf.Clamp(currentJumpForce, minJumpForce, (jumpCount == 0) ? maxFirstJumpForce : maxSecondJumpForce);
             rb.AddForce(Vector3.up * appliedForce, ForceMode.Impulse);
             jumpCount++;
@@ -76,7 +75,7 @@ public class JumpController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Reset jump count when colliding with ground
+        
         if (((1 << collision.gameObject.layer) & groundMask) != 0)
         {
             jumpCount = 0;
